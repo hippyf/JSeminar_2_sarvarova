@@ -7,6 +7,8 @@ public class Homework {
     //
     // 1) Данные для фильтрации подаются в метод двумя массивами paramName и paramValue.
     // 2) Данные для фильтрации подаются в метод строкой в формате json.
+    //      Пример json: {"firstName": "Ivan", "secondName": "Ivanov", ....}
+    // Результат работы методов: "select * from students where firstName = 'Ivan' and ...".
     public static void main(String[] args) {
 
     }
@@ -16,7 +18,7 @@ public class Homework {
         return "";
     }
 
-    public String updateQueryByJson(String q, String[] paramName, String[] paramValue){
+    public String updateQueryByJson(String q, String json){
 
         return "";
     }

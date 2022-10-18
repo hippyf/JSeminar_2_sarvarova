@@ -23,6 +23,10 @@ public class Task3 {
         return "";
     }
 
+    public void read(String localFilename){
+
+    }
+
     public void saveOnLocal(String fileName, String fileContent) {
 
     }
